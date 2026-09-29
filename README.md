@@ -1,8 +1,12 @@
-# activity
+# Time complexity
 
-Flask app that times algorithms across increasing input sizes, plots the
-results, and can save runs to a SQLite database behind JWT login.
+Flask app that times algorithms across increasing input sizes, plots the results, and can save runs to a SQLite database behind JWT login.
 
+What is time complexity?
+
+Time complexity describes how an algorithm's running time grows as its input size (n) grows. It's usually expressed with Big O notation, such as O(1), O(log n), O(n), or O(n²), and tells you how the algorithm scales rather than its exact runtime on one machine.
+
+This app measures that growth empirically: for a range of input sizes, it runs the algorithm, records how long each run takes, and plots time against input size. The shape of the resulting curve gives a visual approximation of the algorithm's time complexity — a flat line suggests constant time, a straight diagonal suggests linear time, and a curve that steepens suggests something like quadratic time.
 ## How to run it
 
 ```
