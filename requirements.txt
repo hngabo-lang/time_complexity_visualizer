@@ -1,2 +1,5 @@
 Flask
+flask-jwt-extended
+SQLAlchemy
 matplotlib
+numpy
