@@ -1,0 +1,9 @@
+# Database
+*.db
+
+# Generated plots
+*.png
+
+# Generated data files
+*.json
+*.pyc
